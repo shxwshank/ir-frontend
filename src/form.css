@@ -1,0 +1,206 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(40,40,40);
+}
+.divform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:30vh;
+    width:100vw;
+    top:0;
+    /* background-color: red; */
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.alllyrics{
+    display: flex;
+    flex-direction: row;
+    height:70vh;
+    width:100vw;
+    top:0;
+    /* background-color: blue; */
+    gap:calc(5vw - 40px);
+}
+.lyrics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:70vh;
+    width:30vw;
+    top:0;
+    border-radius: 20px; 
+    /* background-color: green; */
+    display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin: 0px;
+	padding: 0px;
+	background-position: center;
+	background-size: 100%;
+	background-image: -o-linear-gradient(35deg,#111 20%, red 40%, purple 60%, #111 80%);
+	background-image: linear-gradient(55deg,#111 20%, red 40%, purple 60%, #111 80%);
+	/* width: 250px; */
+	/* height: 350px; */
+	border-radius: 20px;
+	background-size: 100%;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+    margin-left: 3vw;
+}
+.card{
+    display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+    flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin: 0px;
+    width: calc(30vw - 10px);
+    height: calc(70vh - 10px);
+    
+	/* width: 240px; */
+	/* height: 340px; */
+	background: #111;
+	border-radius: 15px;
+    color: white;
+}
+.translated_lyrics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:70vh;
+    width:30vw;
+    top:0;
+    border-radius: 20px; 
+    /* background-color: green; */
+    display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin: 0px;
+	padding: 0px;
+	background-position: center;
+	background-size: 100%;
+	background-image: -o-linear-gradient(35deg,#111 20%, red 40%, purple 60%, #111 80%);
+	background-image: linear-gradient(55deg,#111 20%, red 40%, purple 60%, #111 80%);
+	/* width: 250px; */
+	/* height: 350px; */
+	border-radius: 20px;
+	background-size: 100%;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+.recommended{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:70vh;
+    width:30vw;
+    top:0;
+    border-radius: 20px; 
+    /* background-color: green; */
+    display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin: 0px;
+	padding: 0px;
+	background-position: center;
+	background-size: 100%;
+	background-image: -o-linear-gradient(35deg,#111 20%, red 40%, purple 60%, #111 80%);
+	background-image: linear-gradient(55deg,#111 20%, red 40%, purple 60%, #111 80%);
+	/* width: 250px; */
+	/* height: 350px; */
+	border-radius: 20px;
+	background-size: 100%;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+.recommended:hover{
+	background-position: center;
+	background-size: 1000%;
+	-webkit-transition: 2s;
+	-o-transition: 2s;
+	transition: 2s;
+}
+.translated_lyrics:hover{
+	background-position: center;
+	background-size: 1000%;
+	-webkit-transition: 2s;
+	-o-transition: 2s;
+	transition: 2s;
+}
+.lyrics:hover{
+	background-position: center;
+	background-size: 1000%;
+	-webkit-transition: 2s;
+	-o-transition: 2s;
+	transition: 2s;
+}
+
+.add-task {
+    position: relative;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.add-task input {
+    outline: none;
+    padding: 20px ;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.461);
+    border-radius: 5px;
+    color: black;
+}
+.btn{
+    /* background-image: linear-gradient(55deg, red 40%, purple 60% 80%); */
+    /* color: white; */
+    border-radius: 10px;
+}
+.single{
+    display: flex;
+    gap: 2px;
+    background-color: rgb(40,40,40);
+    border-radius: 5px;
+}
+.songscards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:8px;
+}
